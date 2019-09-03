@@ -8,6 +8,7 @@
 
 #import "BDViewController.h"
 #import "BuglyDynamic.h"
+#import <Bugly/Bugly.h>
 @interface BDViewController ()
 
 @end
