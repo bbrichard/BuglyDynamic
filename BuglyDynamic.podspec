@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BuglyDynamic"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "BuglyDynamic for components"
   spec.description  = <<-DESC
                       BuglyDynamic for components
