@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Bugly/Bugly.h>
+//#import <Bugly/Bugly.h>
 //! Project version number for BuglyDynamic.
 FOUNDATION_EXPORT double BuglyDynamicVersionNumber;
 
