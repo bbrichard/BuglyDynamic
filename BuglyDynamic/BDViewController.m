@@ -8,7 +8,7 @@
 
 #import "BDViewController.h"
 #import "BuglyDynamic.h"
-#import <Bugly/Bugly.h>
+//#import <Bugly/Bugly.h>
 @interface BDViewController ()
 
 @end
@@ -17,8 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSString *bid = [Bugly buglyDeviceId];
-    NSLog(@"big: %@",bid);
+//    NSString *bid = [Bugly buglyDeviceId];
+//    NSLog(@"big: %@",bid);
     
 }
 

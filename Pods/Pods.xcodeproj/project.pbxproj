@@ -6,11 +6,33 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4A68CFD979D413A619DF631BB121D98F /* Bugly */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CC7AA793D9397C15E010F8242EE1046 /* Build configuration list for PBXAggregateTarget "Bugly" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Bugly;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		237A13064F2143F709DE0205CA8760A4 /* Pods-BuglyDynamic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA695327137C1E9C08C7E2A0E8F25F /* Pods-BuglyDynamic-dummy.m */; };
-		48C9EE9562E9B64FA924549EE0DB74FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A5A4AE34F32632C0D751302C85CAF9E1 /* Pods-BuglyDynamic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 765ED578E24071975EAE16B496FDF29A /* Pods-BuglyDynamic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893B1520A7374E4E0401968FF59861AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A862F0D08A9EF453B6D240D5844B856A /* Pods-BuglyDynamic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90FA695327137C1E9C08C7E2A0E8F25F /* Pods-BuglyDynamic-dummy.m */; };
+		D7DE731344516AD1941F0DD51B8405A9 /* Pods-BuglyDynamic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 765ED578E24071975EAE16B496FDF29A /* Pods-BuglyDynamic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A7D31278DDF600E734C7E4272F4EDEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A68CFD979D413A619DF631BB121D98F;
+			remoteInfo = Bugly;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C3A48617827BCF2AE79E2DA6F41D413 /* Pods_BuglyDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BuglyDynamic.framework; path = "Pods-BuglyDynamic.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,15 +45,17 @@
 		92BB150E0C9BFB88158983BF91E46A33 /* Pods-BuglyDynamic-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BuglyDynamic-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBD065C75087A697BF0B7FB58D808AC /* Pods-BuglyDynamic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BuglyDynamic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF9CB9792445C3315D8E7AD3CB7527D1 /* Bugly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bugly.xcconfig; sourceTree = "<group>"; };
+		F485BC03D2001AF85922435B4505C46E /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		F7385922C515545F215F0C15A309C400 /* Pods-BuglyDynamic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BuglyDynamic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5424886AB66F30D0EF18B3B6993D2DFB /* Frameworks */ = {
+		22938364767762840BBE9C0A66A820A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48C9EE9562E9B64FA924549EE0DB74FC /* Foundation.framework in Frameworks */,
+				893B1520A7374E4E0401968FF59861AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +68,33 @@
 				A512B954B08713781A0D97689191DE76 /* Pods-BuglyDynamic */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3744F6AE94FC73E1DAAC71573A19A9B7 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				B6746645CC15D2807D4CE0C383176DFA /* Frameworks */,
+				90ED9D9321036B0F3EA121E7B624737F /* Support Files */,
+			);
+			name = Bugly;
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		47FCA6EC490B5EE84BB412F81253F748 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3744F6AE94FC73E1DAAC71573A19A9B7 /* Bugly */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		90ED9D9321036B0F3EA121E7B624737F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9CB9792445C3315D8E7AD3CB7527D1 /* Bugly.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bugly";
 			sourceTree = "<group>";
 		};
 		A3F512CA30E6560065F8BD24731C833C /* Products */ = {
@@ -70,6 +121,14 @@
 			path = "Target Support Files/Pods-BuglyDynamic";
 			sourceTree = "<group>";
 		};
+		B6746645CC15D2807D4CE0C383176DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F485BC03D2001AF85922435B4505C46E /* Bugly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +142,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47FCA6EC490B5EE84BB412F81253F748 /* Pods */,
 				A3F512CA30E6560065F8BD24731C833C /* Products */,
 				35B70CC124A3169064AD6EEBE2547385 /* Targets Support Files */,
 			);
@@ -99,11 +159,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ED97382300CCBC87F148B33BF30964F2 /* Headers */ = {
+		3CB5C205AD8C893927CBC0937446F05A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A4AE34F32632C0D751302C85CAF9E1 /* Pods-BuglyDynamic-umbrella.h in Headers */,
+				D7DE731344516AD1941F0DD51B8405A9 /* Pods-BuglyDynamic-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,16 +172,17 @@
 /* Begin PBXNativeTarget section */
 		0511B10AB7F5E100F896512F1D714CF5 /* Pods-BuglyDynamic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85734ECAAE28BB444EE8E97DEB658D3E /* Build configuration list for PBXNativeTarget "Pods-BuglyDynamic" */;
+			buildConfigurationList = F6406C1E291CF592FE47B98A6BFA7B08 /* Build configuration list for PBXNativeTarget "Pods-BuglyDynamic" */;
 			buildPhases = (
-				ED97382300CCBC87F148B33BF30964F2 /* Headers */,
-				80D80AE05579D78F4FDBA6528108C00A /* Sources */,
-				5424886AB66F30D0EF18B3B6993D2DFB /* Frameworks */,
-				52812AAE960F8BF45EF8B09F5807D58C /* Resources */,
+				3CB5C205AD8C893927CBC0937446F05A /* Headers */,
+				ED06AF92ADC98AD3665572570A03C935 /* Sources */,
+				22938364767762840BBE9C0A66A820A6 /* Frameworks */,
+				5C063C3CF1B8A676D3890BB8BE176B96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				31FC550A747DA931B432C2E424871995 /* PBXTargetDependency */,
 			);
 			name = "Pods-BuglyDynamic";
 			productName = "Pods-BuglyDynamic";
@@ -149,13 +210,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4A68CFD979D413A619DF631BB121D98F /* Bugly */,
 				0511B10AB7F5E100F896512F1D714CF5 /* Pods-BuglyDynamic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52812AAE960F8BF45EF8B09F5807D58C /* Resources */ = {
+		5C063C3CF1B8A676D3890BB8BE176B96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -165,18 +227,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80D80AE05579D78F4FDBA6528108C00A /* Sources */ = {
+		ED06AF92ADC98AD3665572570A03C935 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				237A13064F2143F709DE0205CA8760A4 /* Pods-BuglyDynamic-dummy.m in Sources */,
+				A862F0D08A9EF453B6D240D5844B856A /* Pods-BuglyDynamic-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		31FC550A747DA931B432C2E424871995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			target = 4A68CFD979D413A619DF631BB121D98F /* Bugly */;
+			targetProxy = 7A7D31278DDF600E734C7E4272F4EDEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		8AEF7A0C079E6955E736C5F878701887 /* Release */ = {
+		332103EB63D8C731ED15C285637E0756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9CB9792445C3315D8E7AD3CB7527D1 /* Bugly.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FCF974C7DD614FF158EF79BD4874F73 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8D4EFB5DC7DF8596A7C74447FF5DCDBE /* Pods-BuglyDynamic.release.xcconfig */;
 			buildSettings = {
@@ -218,6 +311,27 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8A96D8DCC0CD95758E24214B9A226F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9CB9792445C3315D8E7AD3CB7527D1 /* Bugly.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					arm64,
+					armv7,
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -343,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		9A28BE14097808D4DAD434A2B57B9F56 /* Debug */ = {
+		FA9A27AEDEDD19AE27232F658BFB77E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F7385922C515545F215F0C15A309C400 /* Pods-BuglyDynamic.debug.xcconfig */;
 			buildSettings = {
@@ -397,11 +511,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85734ECAAE28BB444EE8E97DEB658D3E /* Build configuration list for PBXNativeTarget "Pods-BuglyDynamic" */ = {
+		9CC7AA793D9397C15E010F8242EE1046 /* Build configuration list for PBXAggregateTarget "Bugly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A28BE14097808D4DAD434A2B57B9F56 /* Debug */,
-				8AEF7A0C079E6955E736C5F878701887 /* Release */,
+				8A96D8DCC0CD95758E24214B9A226F55 /* Debug */,
+				332103EB63D8C731ED15C285637E0756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6406C1E291CF592FE47B98A6BFA7B08 /* Build configuration list for PBXNativeTarget "Pods-BuglyDynamic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA9A27AEDEDD19AE27232F658BFB77E6 /* Debug */,
+				7FCF974C7DD614FF158EF79BD4874F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

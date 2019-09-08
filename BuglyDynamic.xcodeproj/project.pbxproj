@@ -10,7 +10,6 @@
 		793781B9231D18BD00C4187B /* BuglyDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 793781B7231D18BD00C4187B /* BuglyDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		793781FC231D4E5000C4187B /* BDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793781FA231D4E5000C4187B /* BDViewController.h */; };
 		793781FD231D4E5000C4187B /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793781FB231D4E5000C4187B /* BDViewController.m */; };
-		79FCF40E2324EA13007F6116 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF40D2324EA13007F6116 /* Bugly.framework */; };
 		79FCF4102324EA22007F6116 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF40F2324EA22007F6116 /* SystemConfiguration.framework */; };
 		79FCF4122324EA2B007F6116 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF4112324EA2B007F6116 /* Security.framework */; };
 		79FCF4142324EA3C007F6116 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF4132324EA3C007F6116 /* libz.tbd */; };
@@ -25,7 +24,6 @@
 		793781B8231D18BD00C4187B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		793781FA231D4E5000C4187B /* BDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDViewController.h; sourceTree = "<group>"; };
 		793781FB231D4E5000C4187B /* BDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDViewController.m; sourceTree = "<group>"; };
-		79FCF40D2324EA13007F6116 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		79FCF40F2324EA22007F6116 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79FCF4112324EA2B007F6116 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		79FCF4132324EA3C007F6116 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -40,7 +38,6 @@
 				79FCF4142324EA3C007F6116 /* libz.tbd in Frameworks */,
 				79FCF4122324EA2B007F6116 /* Security.framework in Frameworks */,
 				79FCF4102324EA22007F6116 /* SystemConfiguration.framework in Frameworks */,
-				79FCF40E2324EA13007F6116 /* Bugly.framework in Frameworks */,
 				7DDD5C66604878D3C78D52BE /* Pods_BuglyDynamic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +66,6 @@
 		793781B6231D18BD00C4187B /* BuglyDynamic */ = {
 			isa = PBXGroup;
 			children = (
-				79FCF40D2324EA13007F6116 /* Bugly.framework */,
 				793781B7231D18BD00C4187B /* BuglyDynamic.h */,
 				793781FA231D4E5000C4187B /* BDViewController.h */,
 				793781FB231D4E5000C4187B /* BDViewController.m */,
