@@ -13,6 +13,10 @@
 		79FCF4102324EA22007F6116 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF40F2324EA22007F6116 /* SystemConfiguration.framework */; };
 		79FCF4122324EA2B007F6116 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF4112324EA2B007F6116 /* Security.framework */; };
 		79FCF4142324EA3C007F6116 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF4132324EA3C007F6116 /* libz.tbd */; };
+		79FCF43A2324FF83007F6116 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF4392324FF83007F6116 /* Bugly.framework */; };
+		79FCF43F2324FFB7007F6116 /* BuglyConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FCF43C2324FFAC007F6116 /* BuglyConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FCF4402324FFB9007F6116 /* Bugly.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FCF43D2324FFAC007F6116 /* Bugly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79FCF4412324FFBB007F6116 /* BuglyLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FCF43E2324FFAC007F6116 /* BuglyLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DDD5C66604878D3C78D52BE /* Pods_BuglyDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46775F84518E2074CA07A07 /* Pods_BuglyDynamic.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +31,10 @@
 		79FCF40F2324EA22007F6116 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79FCF4112324EA2B007F6116 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		79FCF4132324EA3C007F6116 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		79FCF4392324FF83007F6116 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bugly.framework; path = "../../../Downloads/Bugly-v2.5.0/Bugly.framework"; sourceTree = "<group>"; };
+		79FCF43C2324FFAC007F6116 /* BuglyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuglyConfig.h; sourceTree = "<group>"; };
+		79FCF43D2324FFAC007F6116 /* Bugly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bugly.h; sourceTree = "<group>"; };
+		79FCF43E2324FFAC007F6116 /* BuglyLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuglyLog.h; sourceTree = "<group>"; };
 		F46775F84518E2074CA07A07 /* Pods_BuglyDynamic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuglyDynamic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -35,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79FCF43A2324FF83007F6116 /* Bugly.framework in Frameworks */,
 				79FCF4142324EA3C007F6116 /* libz.tbd in Frameworks */,
 				79FCF4122324EA2B007F6116 /* Security.framework in Frameworks */,
 				79FCF4102324EA22007F6116 /* SystemConfiguration.framework in Frameworks */,
@@ -48,6 +57,7 @@
 		793781AA231D18BD00C4187B = {
 			isa = PBXGroup;
 			children = (
+				79FCF43B2324FFAC007F6116 /* Headers */,
 				793781B6231D18BD00C4187B /* BuglyDynamic */,
 				793781B5231D18BD00C4187B /* Products */,
 				F06AF383D1FA00C508AA2FD5 /* Pods */,
@@ -66,12 +76,24 @@
 		793781B6231D18BD00C4187B /* BuglyDynamic */ = {
 			isa = PBXGroup;
 			children = (
+				79FCF4392324FF83007F6116 /* Bugly.framework */,
 				793781B7231D18BD00C4187B /* BuglyDynamic.h */,
 				793781FA231D4E5000C4187B /* BDViewController.h */,
 				793781FB231D4E5000C4187B /* BDViewController.m */,
 				793781B8231D18BD00C4187B /* Info.plist */,
 			);
 			path = BuglyDynamic;
+			sourceTree = "<group>";
+		};
+		79FCF43B2324FFAC007F6116 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				79FCF43C2324FFAC007F6116 /* BuglyConfig.h */,
+				79FCF43D2324FFAC007F6116 /* Bugly.h */,
+				79FCF43E2324FFAC007F6116 /* BuglyLog.h */,
+			);
+			name = Headers;
+			path = BuglyDynamic/Bugly.framework/Headers;
 			sourceTree = "<group>";
 		};
 		AF911515951EE483EC6CB420 /* Frameworks */ = {
@@ -102,6 +124,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				793781B9231D18BD00C4187B /* BuglyDynamic.h in Headers */,
+				79FCF4412324FFBB007F6116 /* BuglyLog.h in Headers */,
+				79FCF43F2324FFB7007F6116 /* BuglyConfig.h in Headers */,
+				79FCF4402324FFB9007F6116 /* Bugly.h in Headers */,
 				793781FC231D4E5000C4187B /* BDViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
