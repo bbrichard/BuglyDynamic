@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		793781B9231D18BD00C4187B /* BuglyDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 793781B7231D18BD00C4187B /* BuglyDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		793781FC231D4E5000C4187B /* BDViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 793781FA231D4E5000C4187B /* BDViewController.h */; };
 		793781FD231D4E5000C4187B /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 793781FB231D4E5000C4187B /* BDViewController.m */; };
 		79FCF4102324EA22007F6116 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FCF40F2324EA22007F6116 /* SystemConfiguration.framework */; };
@@ -123,7 +122,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				793781B9231D18BD00C4187B /* BuglyDynamic.h in Headers */,
 				79FCF4412324FFBB007F6116 /* BuglyLog.h in Headers */,
 				79FCF43F2324FFB7007F6116 /* BuglyConfig.h in Headers */,
 				79FCF4402324FFB9007F6116 /* Bugly.h in Headers */,
