@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BuglyDynamic"
-  spec.version      = "0.1.7"
+  spec.version      = "0.1.8"
   spec.summary      = "BuglyDynamic for components"
   spec.description  = <<-DESC
                       BuglyDynamic for components
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
 
-  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/BuglyDynamic/master/Products/BuglyDynamic.framework.zip' }
+  spec.source = { :http  => 'https://raw.githubusercontent.com/bbrichard/BuglyDynamic/master/Products/BuglyDynamic.framework018.zip' }
   spec.frameworks = 'SystemConfiguration', 'Security'''
   
   spec.default_subspec = 'zip'
