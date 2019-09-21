@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "BuglyDynamic"
-  spec.version      = "0.1.8"
+  spec.version      = "0.1.9"
   spec.summary      = "BuglyDynamic for components"
   spec.description  = <<-DESC
                       BuglyDynamic for components
@@ -21,4 +21,15 @@ Pod::Spec.new do |spec|
       puts '-------------------------------------------------------------------'
       zip.ios.vendored_frameworks = '*.framework'
   end
+  
+  spec.prepare_command     = <<-EOF
+  touch  BuglyDynamic.framework/Modules/module.modulemap
+  cat <<-EOF > BuglyDynamic.framework/Modules/module.modulemap
+  framework module UMMobClick {
+      header "Bugly.h"
+      header "BuglyConfig.h"
+      header "BuglyLog.h"
+  }
+  \EOF
+  EOF
 end
